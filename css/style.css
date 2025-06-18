@@ -9,3 +9,13 @@ body {
   color: #fff;
   background-color: #121212;
 }
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.logo-container img {
+  width: 130px;
+  margin-bottom: 20px;
+}
