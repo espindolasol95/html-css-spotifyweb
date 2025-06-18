@@ -1,7 +1,7 @@
 *{
     margin:0%; 
     padding:0%
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
  
 body {
@@ -18,4 +18,25 @@ body {
 .logo-container img {
   width: 130px;
   margin-bottom: 20px;
+}
+.sidebar-container {
+  width: 230px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+.nav-container ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+.nav-container ul li.active,
+.nav-container ul li:hover {
+  opacity: 1;
 }
