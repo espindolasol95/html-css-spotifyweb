@@ -20,7 +20,6 @@ header{
   
 }
 .header button{
-  
   margin-left:auto; 
   border-radius: 20px;
   padding: 7px 45px ;
@@ -29,14 +28,23 @@ header{
   color:#fff;
 }
 /*main*/
-.main{
-  max-width:1200px;
-  padding:20px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  
+
+.main {
+  max-width: 1200px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 230px;
 }
+header,
+main {
+  margin-left: 230px; 
+  margin-right: auto;
+  margin-top: 0;
+}
+
+
 .nav-tabs{
   width: 1200px;
   padding: 10px;
@@ -55,15 +63,23 @@ header{
   border-bottom: 2px solid limegreen;
   
 }  
-.container{
-  max-width:
+.album{
+  padding: 20px;
+
 }
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+
 
 
 
  /*sidebar*/
 .app-container {
-  display: flex;
+  display:flex;
   height: 100vh;
   overflow: hidden;
 }
