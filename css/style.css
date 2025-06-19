@@ -28,6 +28,12 @@ header{
   color:#fff;
 }
 /*main*/
+.container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 
 .main {
   max-width: 1200px;
@@ -65,9 +71,11 @@ main {               /*posibile causa problema NO griglia*/
 }  
  /*album area*/
 
- 
+
 .album{
-  padding: 20px;
+  margin-left: 230pxs;
+  padding: 20px 30px;
+  margin-top: 30px;
 
 }
  
@@ -83,11 +91,11 @@ main {               /*posibile causa problema NO griglia*/
   text-align: center;
   
 }
-.album-card img {
-  width: 100%;
-  border-radius: 6px;
+.card img{ 
+  width: -moz-available;
+  padding: 0;
+  display: flez;
 }
-
 .album-card h3 {
   font-size: 14px;
   margin-top: 10px;
