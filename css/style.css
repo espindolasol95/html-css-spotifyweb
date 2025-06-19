@@ -9,7 +9,24 @@ body {
   color: #fff;
   background-color: #121212;
 }
+/*main*/
+.header{
+  padding: 20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-tabs{
+  display:flex;
+  gap:20px;
 
+}
+.nav-tabs a{
+  color: silver;
+  text-decoration:none;
+  font-size: 14px;
+}
+ /*sidebar*/
 .app-container {
   display: flex;
   height: 100vh;
@@ -25,20 +42,21 @@ body {
 
 }
 .sidebar-container {
-  width: 230px;
+  width: 170px;
   background-color: #000;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 20px 15px;
+  flex-direction:column ;
+  justify-content:center;
+  padding: 0px 10px;
 }
+
 .nav-container ul li {
   width: 30px;
   margin: 0%;
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 8px 0;
+  padding: 10px 0;
   cursor: pointer;
   opacity: 0.7;
   transition: 0.2s;
@@ -58,6 +76,11 @@ body {
   
 
 }
+
 .user-area{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   padding: 10px 0;
+  width:20px;
 }
