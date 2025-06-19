@@ -101,7 +101,13 @@ main {               /*posibile causa problema NO griglia*/
   margin-top: 10px;
   color: #fff;
 }
-
+.griglia-2 h1 span{
+  padding: 20px 5px;
+}
+.card-2 img{
+  width: 250px;
+  padding: 20px 5px;
+}
  /*sidebar*/
 .app-container {
   display:flex;
