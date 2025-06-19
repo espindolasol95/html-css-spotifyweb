@@ -1,7 +1,7 @@
 *{
     margin:0%; 
-    padding:0%
-    box-sizing:border-box;
+    padding:0%;
+    box-sizing: border-box;
 }
  
 body {
@@ -9,16 +9,36 @@ body {
   color: #fff;
   background-color: #121212;
 }
-/*main*/
-.header{
-  padding: 20;
+/*header*/
+header{
+  max-width:1200px;
+  padding: 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: black;
+  
+}
+.header button{
+  margin-left: auto;
+  border-radius: 20px;
+  padding: 0px 50px ;
+  justify-content: flex-end;
+  background-color: #000;
+  color:#fff;
+}
+/*main*/
+.main{
+  max-width:1200px;
+  padding:20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
 }
 .nav-tabs{
+  width: 1200px;
+  padding: 10px;
   display:flex;
   gap:20px;
+  justify-content:center;
 
 }
 .nav-tabs a{
@@ -26,6 +46,8 @@ body {
   text-decoration:none;
   font-size: 14px;
 }
+
+
  /*sidebar*/
 .app-container {
   display: flex;
