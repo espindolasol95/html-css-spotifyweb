@@ -38,7 +38,7 @@ header{
   margin-left: 230px;
 }
 header,
-main {
+main {               /*posibile causa problema NO griglia*/
   margin-left: 230px; 
   margin-right: auto;
   margin-top: 0;
@@ -63,19 +63,36 @@ main {
   border-bottom: 2px solid limegreen;
   
 }  
+ /*album area*/
+
+ 
 .album{
   padding: 20px;
 
 }
-.album-grid {
+ 
+.griglia {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 20px;
+  margin-top: 20px;
+} 
+ 
+.album-card{
+  padding: 15px;
+  text-align: center;
+  
+}
+.album-card img {
+  width: 100%;
+  border-radius: 6px;
 }
 
-
-
-
+.album-card h3 {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #fff;
+}
 
  /*sidebar*/
 .app-container {
