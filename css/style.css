@@ -5,6 +5,7 @@
 }
  
 body {
+  width: 100%;
   font-family: 'Helvetica Neue', sans-serif;
   color: #fff;
   background-color:rgb(1, 1, 31);
@@ -42,6 +43,7 @@ header{
   justify-content: space-between;
   align-items: center;
   margin-left: 230px;
+  padding-bottom: 100px;
 }
 header,
 main {               /*posibile causa problema NO griglia*/
@@ -52,7 +54,7 @@ main {               /*posibile causa problema NO griglia*/
 
 
 .nav-tabs{
-  width: 1200px;
+  
   padding: 10px;
   display:flex;
   gap:20px;
@@ -92,9 +94,9 @@ main {               /*posibile causa problema NO griglia*/
   
 }
 .card img{ 
-  width: -moz-available;
+  width: 100%;
   padding: 0;
-  display: flez;
+  
 }
 .album-card h3 {
   font-size: 14px;
@@ -124,7 +126,7 @@ main {               /*posibile causa problema NO griglia*/
 
 }
 .sidebar-container{
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 230px; 
@@ -136,7 +138,15 @@ main {               /*posibile causa problema NO griglia*/
   justify-content: space-between;
   padding: 20px;
   z-index: 1000; 
+  font-size: 14px;
+
  }
+.nav-container ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
 .nav-container ul li {
   width: 30px;
   margin: 0%;
@@ -155,20 +165,51 @@ main {               /*posibile causa problema NO griglia*/
   opacity: 1;
 }
 
-.playlist-container ul li{
+.crea-playlist ul li{
   display: flex;
   padding: 10px 0;
   height: 10px;
   cursor: pointer;
-  
-  
+}
+.icon-box{
+  background-color: #fff;
+  color:
 
+}.user-area instal{
+  gap: 10px;
+  opacity: 0.5;
+  cursor: pointer;
 }
 
+.user-area span{
+  text-align: center ;
+  width: max-content;
+  white-space: nowrap;
+}
+.divisione{
+  width: 900%;
+  height: 1px;
+  margin: 10px 0;
+}
 .user-area{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 10px 0;
+  padding: 20px 0;
   width:20px;
+}
+ /*fotter*/
+ .footer {
+  display: flex;
+  justify-content: space-between;
+  
+  background-color: grey;
+  color:#fff;
+  padding: 40px 60px;
+  position:fixed ;
+  bottom: 0;
+  width:inherit;
+  height: 80px;
+  
+  
 }
