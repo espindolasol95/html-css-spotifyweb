@@ -103,16 +103,33 @@ main {               /*posibile causa problema NO griglia*/
   margin-top: 10px;
   color: #fff;
 }
-.griglia-2 h1 span{
-  padding: 20px 5px;
+.griglia-2 {
+  margin-top: 20px;
+  height: 480px;
+} 
+
+.card-container{
+  display: flex;
+  gap: 15px;
+  margin:10px;
+  
 }
-.card-2 img{
-  width: 250px;
-  padding: 20px 5px;
+
+.card-3{
+  display: flex;
+  gap: 15px;
+  
+
 }
+.card-3 img{
+  border-radius: 50%;
+  
+  
+}
+
  /*sidebar*/
 .app-container {
-  display:flex;
+  display: flex;
   height: 100vh;
   overflow: hidden;
 }
@@ -173,9 +190,10 @@ main {               /*posibile causa problema NO griglia*/
 }
 .icon-box{
   background-color: #fff;
-  color:
+  
+}
 
-}.user-area instal{
+.user-area instal{
   gap: 10px;
   opacity: 0.5;
   cursor: pointer;
@@ -217,3 +235,9 @@ main {               /*posibile causa problema NO griglia*/
   margin: 0;
   
 }
+.control{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
