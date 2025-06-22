@@ -128,11 +128,7 @@ main {               /*posibile causa problema NO griglia*/
 }
 
  /*sidebar*/
-.app-container {
-  display: flex;
-  height: 100vh;
-  overflow: hidden;
-}
+
 .logo-container img {
   width: 130px;
   margin-bottom: 20px;
@@ -143,7 +139,7 @@ main {               /*posibile causa problema NO griglia*/
 
 }
 .sidebar-container{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 230px; 
@@ -154,7 +150,7 @@ main {               /*posibile causa problema NO griglia*/
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
-  
+  overflow: auto;
   font-size: 14px;
 
  }
@@ -181,15 +177,20 @@ main {               /*posibile causa problema NO griglia*/
   border-left: 3px solid limegreen;
   opacity: 1;
 }
-
 .crea-playlist ul li{
   display: flex;
   padding: 10px 0;
   height: 10px;
   cursor: pointer;
 }
-.icon-box{
-  background-color: #fff;
+.icon-box i{
+  background-color:#fff;
+  color: #000;
+  height: auto;
+  height: fit-content;
+  cursor: pointer;
+
+
   
 }
 
@@ -220,7 +221,7 @@ main {               /*posibile causa problema NO griglia*/
  .footer {
   display: flex;
   justify-content: space-between;
-  background-color: grey;
+  background-color: rgb(49, 48, 48);
   color:#fff;
   padding: 15px 5px;
   position:fixed ;
@@ -230,9 +231,12 @@ main {               /*posibile causa problema NO griglia*/
   
   
 }
-.footer-left img{
+.footer-left {
+  display: flex;
+  gap: 15px;
   width: 30%;
   margin: 0;
+  padding: 0px 10px;
   
 }
 .control{
