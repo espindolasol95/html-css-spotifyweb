@@ -284,4 +284,24 @@ main {               /*posibile causa problema NO griglia*/
    /*grossi problemi a fare modo tablet*/
 
 
-   
+
+/*celulare*/
+
+
+
+@media screen and(max-width: 600px) {
+  .sidebar-container {
+    display: none;
+
+  }
+
+
+  .header,main, album,
+  .griglia-2,
+  .griglia-3{ 
+    
+    margin-left: 0;
+
+  }
+  
+}
